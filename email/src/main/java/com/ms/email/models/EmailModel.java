@@ -26,7 +26,5 @@ public class EmailModel implements Serializable {
     private String text;
 
     private LocalDateTime sendDateEmail;
-
-    @Enumerated(EnumType.STRING)
     private StatusEmail statusEmail;
 }
